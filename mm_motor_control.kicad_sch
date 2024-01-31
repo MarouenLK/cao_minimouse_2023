@@ -626,13 +626,13 @@
   (symbol (lib_id "Device:R") (at 170.18 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04dc529a-373e-47b8-85ee-e58cd964db8b)
-    (property "Reference" "RSNSB" (at 172.72 121.92 0)
+    (property "Reference" "RSNSB1" (at 172.72 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33m" (at 172.72 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 168.402 123.19 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 168.402 123.19 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 123.19 0)
@@ -643,7 +643,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "RSNSB") (unit 1)
+          (reference "RSNSB1") (unit 1)
         )
       )
     )
@@ -677,13 +677,13 @@
   (symbol (lib_id "Device:R") (at 105.41 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e90247e-f24f-49ac-aaaf-704672290fc2)
-    (property "Reference" "R" (at 107.95 107.95 0)
+    (property "Reference" "R15" (at 107.95 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2K" (at 107.95 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 103.632 109.22 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 103.632 109.22 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 109.22 0)
@@ -694,7 +694,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -703,13 +703,13 @@
   (symbol (lib_id "Device:C") (at 176.53 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d1e974d-6071-4674-b90c-95340f880630)
-    (property "Reference" "CSPOL" (at 180.34 48.26 0)
+    (property "Reference" "CSPOL1" (at 180.34 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 180.34 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 177.4952 53.34 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 177.4952 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 49.53 0)
@@ -720,7 +720,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "CSPOL") (unit 1)
+          (reference "CSPOL1") (unit 1)
         )
       )
     )
@@ -729,13 +729,13 @@
   (symbol (lib_id "Device:C") (at 121.92 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 340d869c-e356-4be5-86f4-3a21cd233946)
-    (property "Reference" "CRCOFF" (at 125.73 127 0)
+    (property "Reference" "CRCOFF1" (at 125.73 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22nF" (at 125.73 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 122.8852 132.08 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 122.8852 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 128.27 0)
@@ -746,7 +746,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "CRCOFF") (unit 1)
+          (reference "CRCOFF1") (unit 1)
         )
       )
     )
@@ -846,13 +846,13 @@
   (symbol (lib_id "Device:R") (at 43.18 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5704b811-ca8f-40ed-8851-51b5b190d870)
-    (property "Reference" "RSTBY" (at 45.72 49.53 0)
+    (property "Reference" "RSTBY1" (at 45.72 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "18K" (at 45.72 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 41.402 50.8 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.402 50.8 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.18 50.8 0)
@@ -863,7 +863,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "RSTBY") (unit 1)
+          (reference "RSTBY1") (unit 1)
         )
       )
     )
@@ -897,13 +897,13 @@
   (symbol (lib_id "Device:R") (at 134.62 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d115fd6-10ee-4df9-8b79-25935ab22a6d)
-    (property "Reference" "ROFF" (at 137.16 115.57 0)
+    (property "Reference" "ROFF1" (at 137.16 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47K" (at 137.16 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 132.842 116.84 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 132.842 116.84 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 116.84 0)
@@ -914,7 +914,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "ROFF") (unit 1)
+          (reference "ROFF1") (unit 1)
         )
       )
     )
@@ -923,13 +923,13 @@
   (symbol (lib_id "Device:R") (at 105.41 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 662351ee-0814-4cb6-975d-de758d773c03)
-    (property "Reference" "R" (at 107.95 121.92 0)
+    (property "Reference" "R16" (at 107.95 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2K" (at 107.95 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 103.632 123.19 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 103.632 123.19 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 123.19 0)
@@ -940,7 +940,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "R") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -999,13 +999,13 @@
   (symbol (lib_id "Device:C") (at 88.9 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8486a25b-e26f-493b-8afa-b3c04bf412e6)
-    (property "Reference" "CEN" (at 92.71 35.56 0)
+    (property "Reference" "CEN1" (at 92.71 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 nF / 6.3 V" (at 90.17 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 89.8652 40.64 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 89.8652 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 36.83 0)
@@ -1016,7 +1016,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "CEN") (unit 1)
+          (reference "CEN1") (unit 1)
         )
       )
     )
@@ -1025,13 +1025,13 @@
   (symbol (lib_id "Device:R") (at 121.92 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 888c5e9b-3210-4804-9e24-8f08a0d3534a)
-    (property "Reference" "RRCOFF" (at 124.46 114.3 0)
+    (property "Reference" "RRCOFF1" (at 124.46 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 K" (at 124.46 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 120.142 115.57 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 120.142 115.57 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 115.57 0)
@@ -1042,7 +1042,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "RRCOFF") (unit 1)
+          (reference "RRCOFF1") (unit 1)
         )
       )
     )
@@ -1051,13 +1051,13 @@
   (symbol (lib_id "Device:R") (at 180.34 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d799fb5-d642-41c2-a82b-4a62712ef7f4)
-    (property "Reference" "RSNSA" (at 182.88 123.19 0)
+    (property "Reference" "RSNSA1" (at 182.88 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33m" (at 182.88 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 178.562 124.46 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 178.562 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 124.46 0)
@@ -1068,7 +1068,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "RSNSA") (unit 1)
+          (reference "RSNSA1") (unit 1)
         )
       )
     )
@@ -1102,13 +1102,13 @@
   (symbol (lib_id "Device:C") (at 43.18 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid add13865-64c2-4e8c-b0be-25cf470bbace)
-    (property "Reference" "CSTBY" (at 46.99 62.23 0)
+    (property "Reference" "CSTBY1" (at 46.99 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 nF" (at 46.99 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 44.1452 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 44.1452 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.18 63.5 0)
@@ -1119,7 +1119,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "CSTBY") (unit 1)
+          (reference "CSTBY1") (unit 1)
         )
       )
     )
@@ -1178,13 +1178,13 @@
   (symbol (lib_id "Device:C") (at 162.56 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b41075a0-163a-44d8-a584-36c3db9a1cdd)
-    (property "Reference" "CS" (at 166.37 48.26 0)
+    (property "Reference" "CS1" (at 166.37 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 166.37 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 163.5252 53.34 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 163.5252 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 162.56 49.53 0)
@@ -1195,7 +1195,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "CS") (unit 1)
+          (reference "CS1") (unit 1)
         )
       )
     )
@@ -1229,13 +1229,13 @@
   (symbol (lib_id "Device:R") (at 80.01 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba6bd302-6bc3-41f2-8700-84d51c8aa33a)
-    (property "Reference" "REN" (at 81.915 27.305 90)
+    (property "Reference" "REN1" (at 81.915 27.305 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "18K" (at 81.915 24.765 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 80.01 32.258 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.01 32.258 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 80.01 30.48 0)
@@ -1246,7 +1246,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
-          (reference "REN") (unit 1)
+          (reference "REN1") (unit 1)
         )
       )
     )
@@ -1322,6 +1322,100 @@
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
           (reference "#PWR014") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 240.03 50.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e8af092d-c1da-4cb8-b31c-d6a677ee9b23)
+    (property "Reference" "#PWR038" (at 240.03 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 240.03 45.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 240.03 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 240.03 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5bbaee6c-93ed-4a72-bddc-9eb8b0dede6d))
+    (instances
+      (project "minimouse"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3975acd0-18ad-47bc-9ce1-d8c4d864aafe"
+          (reference "#PWR038") (unit 1)
+        )
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/7f113667-692a-4f4d-b16f-621d32f3f136"
+          (reference "#PWR033") (unit 1)
+        )
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 240.03 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f0630168-f7bf-41f3-ab27-39d8ab4f85d9)
+    (property "Reference" "#PWR039" (at 240.03 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 240.03 62.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 240.03 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 240.03 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fb520e58-d711-4e82-a750-550e98554ff6))
+    (instances
+      (project "minimouse"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/7f113667-692a-4f4d-b16f-621d32f3f136"
+          (reference "#PWR039") (unit 1)
+        )
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3975acd0-18ad-47bc-9ce1-d8c4d864aafe"
+          (reference "#PWR040") (unit 1)
+        )
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
+          (reference "#PWR045") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 240.03 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f5dd6d25-dcfb-49e0-a133-0208f8064f6b)
+    (property "Reference" "C8" (at 243.84 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "2.2uF" (at 243.84 55.88 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 240.9952 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 240.03 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 82a59724-685f-4607-954a-eaf18d18286b))
+    (pin "2" (uuid 20673ea8-4bda-425e-b815-b0cf24b9a846))
+    (instances
+      (project "minimouse"
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/3975acd0-18ad-47bc-9ce1-d8c4d864aafe"
+          (reference "C8") (unit 1)
+        )
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/7f113667-692a-4f4d-b16f-621d32f3f136"
+          (reference "C7") (unit 1)
+        )
+        (path "/d8fa4cba-2469-4231-847f-065b6b829f44/0999fad3-9a14-4ede-b729-a71c3dbbdf8e"
+          (reference "C10") (unit 1)
         )
       )
     )

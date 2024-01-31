@@ -348,13 +348,13 @@
   (symbol (lib_id "Device:R") (at 113.03 90.17 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c5ab4ae-be1c-43a4-8109-f4eaa120b521)
-    (property "Reference" "R" (at 113.03 96.52 90)
+    (property "Reference" "R17" (at 113.03 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 113.03 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 113.03 88.392 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 113.03 88.392 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 113.03 90.17 0)
@@ -365,7 +365,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
-          (reference "R") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -502,13 +502,13 @@
   (symbol (lib_id "Device:C") (at 153.67 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1281797-d0ff-4192-8bb5-a666d71f5f86)
-    (property "Reference" "C" (at 157.48 58.42 0)
+    (property "Reference" "C11" (at 157.48 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 157.48 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 154.6352 63.5 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 154.6352 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 59.69 0)
@@ -519,7 +519,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/224298a9-7d6e-4a70-a0a5-f2614895ec28"
-          (reference "C") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
